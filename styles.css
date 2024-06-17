@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.user-card {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.user-card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.user-card .card-text {
+    margin-bottom: 5px;
+    width: 100%;
+    white-space: pre-wrap; 
+}
+
+.user-card .btn-danger {
+    margin-top: 10px;
+}
